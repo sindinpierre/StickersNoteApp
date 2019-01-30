@@ -11,7 +11,7 @@ div#react-container {
 body {
     margin: 0;
     padding: 0;
-    overflow: scroll;
+    overflow: auto;
     background-color: brown;
     background: #eab92d;
     background: -moz-radial-gradient(center, ellipse cover, #eab92d 57%, #c79810 99%);
@@ -34,6 +34,10 @@ body {
     padding: 5px;
     font-family: "Shadows Into Light", Arial;
 }
+header#App-header h1{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
 div#Board {
 
 
@@ -54,7 +58,7 @@ div#Sticker {
     margin: 2px 0;
     cursor: -webkit-grab;
     -webkit-box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
-    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
+    box-shadow: 5px 5px 15px 0 rgb(25, 24, 24);
     margin: 5px ;
 }
 
@@ -90,9 +94,19 @@ div#Board button {
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.55);
 }
 
+div#Date {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 10px;
+    color: black;
+    text-shadow: 0 0 5px #000, 0 0 10px #979795, 0 0 7px #979795, 0 0 20px #979795, 0 0 35px #979795, 0 0 40px #979795, 0 0 50px #979795, 0 0 75px #ffffff;
+
+}
+
 #add {
     background-color: #5cb85c;
     height: 3em;
+    border-radius: 30px;
 }
 
 #edit {
