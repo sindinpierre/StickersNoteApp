@@ -3,9 +3,13 @@ import Clock from 'react-live-clock';
 //import ReactDOM from 'react-dom'
 import './App.css'
 import {Board}              from "./Board"
+import {Error}              from "./Error"
 
 class App extends Component {
-  render() {
+    state = {
+        errorList: ["error1","error2"],
+    }
+    render() {
     return (
       <div id="App">
         <header id="App-header">
@@ -14,10 +18,20 @@ class App extends Component {
 
             <div id={"Date"}><Clock format={'HH:mm:ss'} ticking={true}  /></div>
         </header>
-          <Board/>
+          <Board addError={this.addError}/>
+
       </div>
     )
-
+    //<Error errorList={this.state.errorList}/>}
   }
+    addError(errMsg) {
+        if(this.state.errorList.find(value => value ===errMsg)){
+
+        } else {
+            let oldError = this.state.errorList
+            let newError = oldError.concat(errMsg)
+            this.setState(newError)
+        }
+    }
 }
 export default App

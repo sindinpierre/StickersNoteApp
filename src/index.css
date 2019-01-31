@@ -1,5 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
-
+* {
+    font-family: "Shadows Into Light", Arial;
+}
 body,
 html,
 div#react-container {
@@ -32,15 +34,33 @@ body {
     font-size: 22px;
     flex-grow: 1;
     padding: 5px;
-    font-family: "Shadows Into Light", Arial;
 }
 header#App-header h1{
-    font-family: "Comic Sans MS", cursive, sans-serif;
+
 }
 
 div#Board {
 
 
+}
+div#Error{
+    background-color: red;
+    min-height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+div#Error__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+div#Error__content p{
+    margin:0!important;
 }
 
 .sticker-list {
