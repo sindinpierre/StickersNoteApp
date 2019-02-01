@@ -3,13 +3,11 @@ import React, { Component } from 'react'
 import { Btn }              from "./Btn"
 import { StickerList }      from "./StickerList"
 import {Error}              from "./Error"
+import {myEvent}            from "./App"
 
 const axios = require('axios')
 
 export class Board extends Component{
-    constructor(props){
-        super(props)
-    }
     state = {
         stickers: [],
         loaded :false
@@ -23,7 +21,6 @@ export class Board extends Component{
     componentDidMount() {
         this.getStickers()
         this.setState({loaded:true})
-
     }
 
     getStickers = ()=>{
@@ -44,6 +41,8 @@ export class Board extends Component{
                 this.setState({stickers: []})
             }
 
+        },(err) => {
+            myEvent.emit('error',err)
         })
     }
 
@@ -55,7 +54,7 @@ export class Board extends Component{
         const data = {text: 'Ecrire ici '}
         instance.post('/stickers.json', data)
                 .then((res) => {  this.getStickers() },(err) => {
-                     this.props.addError(err)
+                    myEvent.emit('error',err)
                 })
     }
 
@@ -70,6 +69,8 @@ export class Board extends Component{
         instance2.delete('/')
                  .then(() => {
                      this.getStickers()
+                 },(err) => {
+                     myEvent.emit('error',err)
                  })
     }
     editSticker = (id) => {

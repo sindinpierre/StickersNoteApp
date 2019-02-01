@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60a3dc8d-57ad-47e2-8fd5-477124705ac4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../src/Error.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/Board.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Board.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/StickerList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/StickerList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Error.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Error.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,10 +30,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../src/App.js">
+        <entry file="file://$PROJECT_DIR$/../src/Error.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="29">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -53,6 +51,7 @@
     <findStrings>
       <find>log</find>
       <find>font-fam</find>
+      <find>myE</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -76,9 +75,10 @@
         <option value="$PROJECT_DIR$/../src/StickerList.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.es6" />
         <option value="$PROJECT_DIR$/../src/index.css" />
-        <option value="$PROJECT_DIR$/../src/Error.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.es6" />
         <option value="$PROJECT_DIR$/../src/Board.js" />
         <option value="$PROJECT_DIR$/../src/App.js" />
+        <option value="$PROJECT_DIR$/../src/Error.js" />
       </list>
     </option>
   </component>
@@ -152,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.scratch_2.es6">
+  <component name="RunManager" selected="Node.js.scratch_3.es6">
     <configuration name="Board.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Board.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -162,19 +162,19 @@
     <configuration name="ShowDate.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../src/ShowDate.js" working-dir="$PROJECT_DIR$/..">
       <method v="2" />
     </configuration>
-    <configuration name="Sticker.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Sticker.js" working-dir="$PROJECT_DIR$">
+    <configuration name="scratch_2.es6" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.es6" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="scratch_2.es6" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.es6" working-dir="$PROJECT_DIR$">
+    <configuration name="scratch_3.es6" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.es6" working-dir="$PROJECT_DIR$/..">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.scratch_3.es6" />
         <item itemvalue="Node.js.scratch_2.es6" />
         <item itemvalue="Node.js.ShowDate.js" />
         <item itemvalue="Node.js.Btn.js" />
         <item itemvalue="Node.js.Board.js" />
-        <item itemvalue="Node.js.Sticker.js" />
       </list>
     </recent_temporary>
   </component>
@@ -189,18 +189,17 @@
       <option name="presentableId" value="Default" />
       <updated>1548416918174</updated>
       <workItem from="1548416919681" duration="64397000" />
-      <workItem from="1548776412730" duration="34528000" />
+      <workItem from="1548776412730" duration="42444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98925000" />
+    <option name="totallyTimeSpent" value="106841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18549618" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18549618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -214,7 +213,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.48576215" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.48576215" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -251,12 +250,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../src/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../src/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../src/ShowDate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -273,9 +266,6 @@
           <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../src/serviceWorker.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../src/RecupStickers.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -300,24 +290,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../src/Btn.js">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.es6">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../src/Sticker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="8" column="92" selection-start-line="8" selection-start-column="92" selection-end-line="8" selection-end-column="92" />
+        <state relative-caret-position="145">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="248">
           <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/Sticker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="8" column="92" selection-start-line="8" selection-start-column="92" selection-end-line="8" selection-end-column="92" />
         </state>
       </provider>
     </entry>
@@ -328,30 +327,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../src/App.test.js">
+    <entry file="file://$PROJECT_DIR$/../src/App.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../src/App.css">
+    <entry file="file://$PROJECT_DIR$/../src/Btn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/App.test.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../src/Board.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../src/Error.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        <state relative-caret-position="-2422">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="74">
+          <caret line="41" column="72" selection-start-line="41" selection-start-column="72" selection-end-line="41" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/Error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
